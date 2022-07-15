@@ -28,9 +28,11 @@ pipeline {
                                 cd "${WORKSPACE}"
                                 git config --global user.name "Putselovsky Eugene"
                                 git config --global user.email "E9315717@yandex.ru"
+                                git remote rm origin 
+                                git remote add origin git@github.com:Glawary/Jupyter.git
                                 git add .
-                                git commit -am "Updated files from Kaggle competition"
-                                git push -f origin main
+                                git commit -am "Update files from Kaggle competition"
+                                git push --all
                              '''
                         }
                  }
