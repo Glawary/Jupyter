@@ -29,7 +29,7 @@ pipeline {
                                 git config --global user.name "Putselovsky Eugene"
                                 git config --global user.email "E9315717@yandex.ru"
                                 git add .
-                                git commit -am "Update files from Kaggle competition"
+                                git commit -am "Updated files from Kaggle competition"
                                 git push -f origin main
                              '''
                         }
